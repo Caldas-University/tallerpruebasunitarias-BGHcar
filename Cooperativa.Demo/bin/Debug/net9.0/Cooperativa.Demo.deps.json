@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Cooperativa.Demo/1.0.0": {
+        "dependencies": {
+          "Cooperativa.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Cooperativa.Demo.dll": {}
+        }
+      },
+      "Cooperativa.Domain/1.0.0": {
+        "runtime": {
+          "Cooperativa.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Cooperativa.Demo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Cooperativa.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
